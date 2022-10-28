@@ -1,0 +1,50 @@
+/*geral*/
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+#title {
+    margin: 10px auto;
+    text-align: center;
+}
+.card h2 {
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 2.3rem;
+}
+#conteudo {
+    margin: 30px auto;
+}
+/*formulário*/
+.card{
+    padding: 10px;
+}
+.form-select{
+    margin: 20px 0;
+}
+#containerResposta{
+    background-color: rgb(206, 241, 249);
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#resultado,#resultado2{
+    margin-left: 20px;
+    font-size: 2rem;
+}
+@media (max-width: 400px) {
+    #resultado,#resultado2{
+        
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 338px) {
+    #resultado, #resultado2{
+        
+        font-size: 1rem;
+    }
+}
+
