@@ -1,5 +1,8 @@
 //comprimento
-
+//adaptação mobile
+let btn = document.getElementById('valor').addEventListener('touchstart', transformar)
+let va3 =document.getElementById('primeiro-valor').addEventListener('touchstart', transformar)
+let va4 =document.getElementById('segundo-valor').addEventListener('touchstart', transformar)
 function transformar() {
     //seleções
     let valorInformado = document.getElementById('valor')
@@ -55,7 +58,10 @@ function transformar() {
 }
 
 //temperatura
-
+//adaptação mobile
+let btn2 = document.getElementById('valor2').addEventListener('touchstart', transformar2)
+let vb3 =document.getElementById('primeiro-valor2').addEventListener('touchstart', transformar2)
+let vb4 =document.getElementById('segundo-valor2').addEventListener('touchstart', transformar2)
 function transformar2() {
     //seleções
     let valorInformado2 = document.getElementById('valor2')

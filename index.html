@@ -31,15 +31,15 @@
                     </div>
                     <div class="card-body">
                         <h3>Quero converter:</h3>
-                        <input type="number" min="0" class="form-control" id="valor" onkeyup="transformar()">
-                        <select class="form-select" onclick="transformar()" aria-label="Default select example"
+                        <input type="number" min="0" class="form-control" id="valor" onkeyup="transformar()"onchange="transformar()" onfocus="transformar()" onblur="transformar()" >
+                        <select class="form-select" onclick="transformar()"onkeyup="transformar()" onchange="transformar()" onfocus="transformar()" onblur="transformar()" aria-label="Default select example"
                             id="primeiro-valor">
                             <option selected value="metro">Metros (m)</option>
                             <option value="kilometro">Kilômetros (km)</option>
                             <option value="milimetro">Milímetros (mm)</option>
                         </select>
                         <h3>Para:</h3>
-                        <select class="form-select" onclick="transformar()" aria-label="Default select example"
+                        <select class="form-select" onclick="transformar()"onkeyup="transformar()" onchange="transformar()" onfocus="transformar()" onblur="transformar()" aria-label="Default select example"
                             id="segundo-valor">
                             <option selected value="metro">Metros (m)</option>
                             <option value="kilometro">Kilômetros (km)</option>
@@ -63,15 +63,15 @@
                     </div>
                     <div class="card-body">
                         <h3>Quero converter:</h3>
-                        <input type="number" min="0" class="form-control" id="valor2" onkeyup="transformar2()">
-                        <select class="form-select" onclick="transformar2()" aria-label="Default select example"
+                        <input type="number" min="0" class="form-control" id="valor2" onkeyup="transformar2()" onchange="transformar2()" onfocus="transformar2()" onblur="transformar2()">
+                        <select class="form-select" onclick="transformar2()"onkeyup="transformar2()" onchange="transformar2()" onfocus="transformar2()" onblur="transformar2()" aria-label="Default select example"
                             id="primeiro-valor2">
                             <option selected value="celsius">Celsius (°C)</option>
                             <option value="kelvin">Kelvin (k)</option>
                             <option value="fahrenheit">Fahrenheit (°F)</option>
                         </select>
                         <h3>Para:</h3>
-                        <select class="form-select" onclick="transformar2()" aria-label="Default select example"
+                        <select class="form-select" onclick="transformar2()"onkeyup="transformar2()" onchange="transformar2()" onfocus="transformar2()" onblur="transformar2()"  aria-label="Default select example"
                             id="segundo-valor2">
                             <option selected value="celsius">Celsius (°C)</option>
                             <option value="kelvin">Kelvin (k)</option>
